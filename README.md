@@ -1,3 +1,3 @@
-Open-source full package
+Trunk MVP Package
 
-This package is built from CatVodOpenSourceFull without deleting built-in site entries.
+这个包来自开源主干 CatVodSpiderExt，并已增量接入 dongli richer 站点中的 ConfigCenter 与 Wogg。
