@@ -18,6 +18,26 @@
             "ext": "./config/configcenter.json"
         },
         {
+            "key": "wogg",
+            "name": "💗｜玩偶｜网盘",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://woggpan.888484.xyz/",
+                    "https://wogg.333232.xyz/",
+                    "http://woggpan.xxooo.cf/",
+                    "https://www.wogg.one/",
+                    "http://www.wogg.lol/",
+                    "https://wogg.xxooo.cf/"
+                ]
+            }
+        },
+        {
             "key": "jianpian",
             "name": "♦｜荐片｜P2P",
             "type": 3,
