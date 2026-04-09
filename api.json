@@ -2,7 +2,7 @@
     "logo": "./assets/logo2025121201.png",
     "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用！",
     "wallpaper": "https://tu.ltyuanfang.cn/api/fengjing.php",
-    "spider": "./jar/custom_spider_r20260410_0235.jar",
+    "spider": "./jar/custom_spider_r20260410_0710.jar",
     "sites": [
         {
             "key": "配置",
