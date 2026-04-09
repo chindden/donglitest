@@ -5,6 +5,19 @@
     "spider": "./jar/custom_spider.jar",
     "sites": [
         {
+            "key": "配置",
+            "name": "⚔️｜配置｜中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./config/configcenter.json"
+        },
+        {
             "key": "jianpian",
             "name": "♦｜荐片｜P2P",
             "type": 3,
