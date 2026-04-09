@@ -2,8 +2,238 @@
     "logo": "./assets/logo2025121201.png",
     "warningText": "禁止任何商业用途，仅限个人学习爬虫原理使用！",
     "wallpaper": "https://tu.ltyuanfang.cn/api/fengjing.php",
-    "spider": "./jar/custom_spider.jar",
+    "spider": "./jar/dongli-spider.jar",
     "sites": [
+        {
+            "key": "配置",
+            "name": "⚔️｜配置｜中心",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./config/configcenter.json"
+        },
+        {
+            "key": "wogg",
+            "name": "💗｜玩偶｜网盘",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://woggpan.888484.xyz/",
+                    "https://wogg.333232.xyz/",
+                    "http://woggpan.xxooo.cf/",
+                    "https://www.wogg.one/",
+                    "http://www.wogg.lol/",
+                    "https://wogg.xxooo.cf/"
+                ]
+            }
+        },
+        {
+            "key": "木偶",
+            "name": "💗｜木偶｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://123.666291.xyz",
+                    "https://666.666291.xyz",
+                    "https://www.muou.site",
+                    "https://www.muou.asia"
+                ]
+            }
+        },
+        {
+            "key": "蜡笔",
+            "name": "💗｜蜡笔｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://www.labi88.sbs",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun"
+                ]
+            }
+        },
+        {
+            "key": "至臻",
+            "name": "💗｜至臻｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://xiaomiai.site",
+                    "https://xiaomi666.fun",
+                    "https://www.mihdr.top",
+                    "https://www.zhizhenpan.fun"
+                ]
+            }
+        },
+        {
+            "key": "多多",
+            "name": "💗｜多多｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            }
+        },
+        {
+            "key": "欧哥",
+            "name": "💗｜欧哥｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://woog.nxog.eu.org",
+                    "https://woog.nxog.fun",
+                    "https://woog.430520.xyz",
+                    "https://woog.nxog.de5.net",
+                    "https://woog.装歌.de5.net"
+                ]
+            }
+        },
+        {
+            "key": "二小",
+            "name": "💗｜二小｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://xhww.net",
+                    "https://erxiaofn.site",
+                    "https://erxiaofn.click",
+                    "https://www.xhww.net"
+                ]
+            }
+        },
+        {
+            "key": "虎斑",
+            "name": "💗｜虎斑｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "http://103.45.162.207:20720"
+                ]
+            }
+        },
+        {
+            "key": "闪电",
+            "name": "💗｜闪电｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "https://shandian.blog",
+                    "https://sd.sduc.site"
+                ]
+            }
+        },
+        {
+            "key": "小飒",
+            "name": "💗｜小飒｜网盘",
+            "type": 3,
+            "api": "csp_MacCMS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "site": [
+                    "http://xsayang.fun:12512"
+                ]
+            }
+        },
+        {
+            "key": "Libvio",
+            "name": "💗｜立播｜网盘",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "https://www.libvio.mov"
+        },
+        {
+            "key": "KuaKeS",
+            "name": "💗｜夸社｜网盘",
+            "type": 3,
+            "api": "csp_KuaKeS",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+        },
+        {
+            "key": "盘它",
+            "name": "💗｜盘它｜网盘",
+            "type": 3,
+            "api": "csp_PanTa",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "人人",
+            "name": "💗｜人人｜网盘",
+            "type": 3,
+            "api": "csp_RenRen",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
         {
             "key": "jianpian",
             "name": "♦｜荐片｜P2P",
@@ -14,232 +244,83 @@
             "ext": "./config/jianpian.json"
         },
         {
-            "key": "bilibili",
-            "name": "🌈｜哔哩｜合集",
+            "key": "myuc",
+            "name": "❤️｜我的┃优囍",
             "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "json": "./config/bilibili.json",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "哔哩哔哩演唱会",
-            "name": "🌈｜哔哩｜音乐",
-            "type": 3,
-            "api": "csp_Bili",
+            "api": "csp_MyUC",
             "searchable": 0,
             "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "./config/blych.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩听书",
-            "name": "🌈｜哔哩｜听书",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "./config/blts.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩相声",
-            "name": "🌈｜哔哩｜相声",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "./config/blxs.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩小品",
-            "name": "🌈｜哔哩｜小品",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "./config/blxp.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩哔哩戏曲",
-            "name": "🌈｜哔哩｜戏曲",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "json": "./config/blxq.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "少儿教育",
-            "name": "🌈｜少儿｜教育",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "./config/sejy.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "小学课堂",
-            "name": "🌈｜小学｜课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "./config/xxkt.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "初中课堂",
-            "name": "🌈｜初中｜课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "./config/czkt.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "高中课堂",
-            "name": "🌈｜高中｜课堂",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": {
-                "json": "./config/gzkt.json",
-                "cookie": ""
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "哔哩影视",
-            "name": "🌈｜哔哩｜影视",
-            "type": 3,
-            "api": "csp_BiliPGC",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
             "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": {
-                "json": "./config/blys.json",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "88看球",
-            "name": "⚽｜看球｜直播",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 0,
-            "changeable": 0,
-            "gridview": 3,
+            "filterable": 0,
+            "indexs": 0,
             "style": {
                 "type": "list"
-            }
-        },
-        {
-            "key": "樱花动漫",
-            "name": "🌸｜樱花｜动漫",
-            "type": 3,
-            "api": "csp_YHDM",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
             },
-            "changeable": 1
+            "timeout": 30,
+            "ext": "./config/myuc.json"
         },
         {
-            "key": "push_agent",
-            "name": "📢｜推送｜中心",
+            "key": "myquark",
+            "name": "❤️｜我的┃夸氪",
             "type": 3,
-            "api": "csp_Push",
-            "hide": 1,
+            "api": "csp_MyQuark",
             "searchable": 0,
+            "quickSearch": 0,
             "changeable": 0,
-            "timeout": 60
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30,
+            "ext": "./config/myquark.json"
         },
         {
-            "key": "本地文件",
-            "name": "🗂️｜本地｜文件",
+            "key": "mybaidu",
+            "name": "❤️｜我的┃百度",
             "type": 3,
+            "api": "csp_MyBaiDu",
             "searchable": 0,
+            "quickSearch": 0,
             "changeable": 0,
-            "api": "csp_Local"
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30,
+            "ext": "./config/mybaidu.json"
+        },
+        {
+            "key": "myali",
+            "name": "❤️｜我的┃阿里",
+            "type": 3,
+            "api": "csp_MyAli",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30,
+            "ext": "./config/myali.json"
+        },
+        {
+            "key": "mytianyi",
+            "name": "❤️｜我的┃天懿",
+            "type": 3,
+            "api": "csp_MyTianYi",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
         },
         {
             "key": "商店",
